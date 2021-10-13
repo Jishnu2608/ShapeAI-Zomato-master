@@ -41,11 +41,11 @@ import {
           cart: action.payload,
         };
         
-      case INCREMENT_QTY:
-        return {
-          ...state,
-          cart: action.payload,
-        };
+      // case INCREMENT_QTY:
+      //   return {
+      //     ...state,
+      //     cart: action.payload,
+      //   };
   
       default:
         return {
