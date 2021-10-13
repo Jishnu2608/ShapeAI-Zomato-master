@@ -31,7 +31,7 @@ const Checkout = () => {
 
   const payNow = () => {
     let options = {
-      key: "rzp_test_RNvW44vJHiXg1b",
+      key: "rzp_test_GRRVhGQq5iGV0e",
       amount:
         reduxStateCart.reduce((acc, curVal) => acc + curVal.totalPrice, 0) *
         100,
