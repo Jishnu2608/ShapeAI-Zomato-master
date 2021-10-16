@@ -19,7 +19,7 @@ services:
       - /app/node_modules
       - ./server:/app
     environment:
-      - MONGO_URL=mongodb+srv://Jishnu:Canon1300d@zomato.tydj2.mongodb.net/zomatoclone?retryWrites=true&w=majority
+      - MONGO_URL=mongodb+srv://pavan:pavan@shapeai.ujqaw.mongodb.net/zomato?retryWrites=true&w=majority
       - GOOGLE_CLIENT_ID=226283498735-35hn9gkqr75t8r3i7mq9qk2b6ktl6qj5.apps.googleusercontent.com
       - GOOGLE_CLIENT_SECRET=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
       - AWS_S3_ACCESS_KEY=AKIAYF5MN7I3S4O5XKUA

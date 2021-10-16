@@ -67,8 +67,11 @@ function App() {
       />
       <CheckoutLayoutHOC path="/checkout/orders" exact component={Checkout} />
     </>
+    
   );
 }
+
+
 
 export default App;
 

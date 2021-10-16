@@ -23,12 +23,15 @@ import Menu from "./API/menu";
 import MailService from "./API/Mail";
 import Payments from "./API/Payments";
 
+const session = require("express-session");
 // Database connection
 import ConnectDB from "./database/connection";
 
 const zomato = express();
 
+
 console.log(process.env);
+
 
 // application middlewares
 zomato.use(express.json());
